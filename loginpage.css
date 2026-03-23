@@ -1,0 +1,139 @@
+
+body{
+  min-height: 100vh;
+  background: #2147d8;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 1000px;
+  height: 560px;
+  background: white;
+  border-radius: 60px;
+  padding: 22px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+}
+
+
+.left{
+  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px 40px;
+}
+
+.logo{
+  font-size: 22px;
+  margin-bottom: 8px;
+}
+
+h1{
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 6px;
+}
+
+.sub{
+  font-size: 13px;
+  color: #777;
+  margin-bottom: 30px;
+}
+
+.field{
+  width: 330px;
+  height: 46px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  padding: 0 14px;
+  margin-bottom: 14px;
+}
+
+.field input{
+  border: none;
+  width: 100%;
+  font-size: 14px;
+  background: transparent;
+}
+
+.icon{
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.row{
+  width: 330px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 6px 0 18px;
+  font-size: 12px;
+  color: #666;
+}
+
+.check{
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.link{
+  color: #777;
+}
+
+.btn{
+  width: 330px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  background: #163fbf;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.or{
+  width: 330px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 22px 0 18px;
+  color: #888;
+  font-size: 12px;
+}
+
+.or span{
+  flex: 1;
+  height: 1px;
+  background: #ddd;
+}
+
+.social{
+  display: flex;
+  gap: 14px;
+}
+
+.sbtn{
+  width: 46px;
+  height: 46px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  background: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+
+.right{
+  width: 50%;
+  border-radius: 60px;
+  overflow: hidden;
+  background-image: url("./task4image.jpeg");
+  background-size: cover;
+}
+
